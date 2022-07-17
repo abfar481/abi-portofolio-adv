@@ -159,3 +159,52 @@ input[type="checkbox"]:checked ~ .navbar {
 a.nav-link {
     margin-right: 0;
 }
+
+a.nav-link:hover,
+a.nav-link:active,
+a.nav-link:focus {
+    border-bottom: solid 1.8px #090b08;
+}
+
+.menu li {
+    margin-top: 3em;
+}
+
+.social-menu {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.social-menu li a {
+    margin: 0 .5em;
+    padding: .5em;
+}
+
+.social-menu li a {
+    font-size: 1.2em;
+}
+
+.social-menuli a:hover,
+.social-menu li a:active,
+.social-menu li a:focus {
+    border-bottom: solid 1px #000;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background: #f5d9d6 url(https://postimg.cc/rRpqJ67n) no-repeat right bottom;
+}
+
+.hero-img img {
+    display: none;
+}
+
+.hero-text {
+    padding: 0 2em 7.5em;
+}
+
+/* Featured Section */
