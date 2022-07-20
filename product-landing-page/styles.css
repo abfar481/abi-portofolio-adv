@@ -252,7 +252,7 @@ a.nav-link:focus {
 }
 
 .box:hover .box-overlay,
-,.box:focus .box-overlay
+.box:focus .box-overlay
 {
     transform: translated(0px, 0px) scale(0.92, 0.0);
 }
