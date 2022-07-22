@@ -579,4 +579,55 @@ input {
     }
 }
 
+@media(min-width: 992px) {
+    /* Global */
+    section {
+        padding: 5.8em 7em 0;
+    }
+
+    .title.title-left {
+        margin-left: -2.5em;
+    }
+
+    .title.title-right {
+        margin-right: -2.5em;
+    }
+
+    .line {
+        width: 5.5em;
+    }
+
+    /* Hero Section */
+    .hero-img img {
+        width: 14.5em;
+    }
+
+    /* Featured Section */
+    #featured .image {
+        margin-top: -2em;
+    }
+
+    /* About Section */
+    #about .wrapper {
+        display: flex;
+    }
+
+    #about .text {
+        flex: 1 0 40%;
+        margin-right: 1em;
+        padding-bottom: 0;
+    }
+
+    .video-wrapper {
+        flex: 2 0 55%;
+        padding-bottom: 33.25%;
+        align-self: center;
+        margin: 1.4em 0;
+    }
+
+    .contact-tel {
+        flex-basis: 20%;
+    }
+}
+
 
