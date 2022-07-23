@@ -37,7 +37,7 @@ h6 {
 
 a {
     text-decoration: none;
-    color: be9e84;
+    color: #be9e84;
 }
 
 ul {
@@ -80,7 +80,7 @@ section {
     transition: all .3s ease-in;
 }
 
-.btn:hover, btn:focus {
+.btn:hover, .btn:focus {
     transform: translate(0px, -2px);
     -webkit-box-shadow: 0px 10px 7px -9px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 10px 7px -9px rgba(0,0,0,0.75);
