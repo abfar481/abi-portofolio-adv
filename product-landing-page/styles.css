@@ -262,7 +262,7 @@ a.nav-link:focus {
     background-color: #f5d9d6;
 }
 
-section#about {
+section #about {
     padding-bottom: 5.8em;
 }
 
@@ -554,6 +554,7 @@ input {
     }
 
     .contact-wrapper a.contact-footer:hover i{
+        padding: 0;
         
     }
 
