@@ -96,13 +96,13 @@ header:before{
 }
 .nav-brand img{
   width: auto;
-  padding-bottom: 3em;
-  padding-top: 0em;
+  padding-bottom: 1em;
+  padding-top: 3.5em;
   height: 0em;
 }
 .toggle-menu{
   display: block;
-  font-size: 1.2em;
+  font-size: 2em;
   align-self: center;
   cursor: pointer;
 }
@@ -170,7 +170,7 @@ a.nav-link:focus{
 	display: flex;
 	height: 100vh;
 	align-items: center;
-	background: #f5d9d6 url("https://i.postimg.cc/9fTzqwtw/flower2.png") no-repeat right bottom;
+	background: #ffffff url("https://i.postimg.cc/kgTcsvkg/nathan-dumlao-VWbm-Zz-MZ1x-U-unsplash.jpg") no-repeat right bottom;
 }
 .hero-img img{
   display: none;
